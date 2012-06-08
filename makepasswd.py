@@ -41,7 +41,7 @@ if __name__ == '__main__':
     args = None
 
     try:
-      opts, args = getopt.getopt(argv[1:], 'l:s', ['length=', 'style='])
+      opts, args = getopt.getopt(argv[1:], 'l:s:', ['length=', 'style='])
     except getopt.error, msg:
       usage(msg)
 
